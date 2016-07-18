@@ -24,7 +24,7 @@ conceptual overview RHESSysWorkflows.
     - [Install RHESSysWorkflows and Python packages](#install-rhessysworkflows-and-python-packages)
       - [Upgrading to a new version of RHESSysWorkflows](#upgrading-to-a-new-version-of-rhessysworkflows)
     - [Install GRASS and QGIS](#install-grass-and-qgis)
-  - [Installing on Ubuntu Linux 14.04 or 15.04](#installing-on-ubuntu-linux-1404-or-1504)
+  - [Installing on Ubuntu Linux 14.04 or 15.04 or 16.04](#installing-on-ubuntu-linux-1404-or-1504)
     - [Install RHESSysWorkflows and Python packages under Linux](#install-rhessysworkflows-and-python-packages-under-linux)
       - [Upgrading to a new version of RHESSysWorkflows](#upgrading-to-a-new-version-of-rhessysworkflows-1)
   - [A note on RHESSysWorkflows version numbers](#a-note-on-rhessysworkflows-version-numbers)
@@ -284,6 +284,9 @@ Ubuntu 15.04:
 > by RHESSys or RHESSysWorkflows.  If you want to use another 
 > Linux distribution, make sure that it provides similar versions
 > of the above dependencies.
+
+For 16.04 (and earlier) GRASS 64 should be used. GRASS 7 is missing headers required by RHESSys and RHESSysWorkflows.
+
 
 #### Install RHESSysWorkflows and Python packages under Linux
 To install RHESSysWorkflows and its dependencies (including EcohydroLib), 
